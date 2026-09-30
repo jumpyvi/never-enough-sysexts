@@ -21,6 +21,10 @@ install-from-flatcar name:
 
 docker: (install-from-flatcar "docker")
 
+ollama: (install-from-flatcar "ollama")
+
+nerdctl: (install-from-flatcar "nerdctl")
+
 k3s: (install-from-flatcar "k3s")
 
 rke2: (install-from-flatcar "rke2")
